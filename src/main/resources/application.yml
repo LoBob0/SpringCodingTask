@@ -1,0 +1,5 @@
+spring:
+  webflux:
+    base-path: /rest-consumer
+  application:
+    name: rest-consumer

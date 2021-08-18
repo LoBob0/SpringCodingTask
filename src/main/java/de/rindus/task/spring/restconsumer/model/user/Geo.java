@@ -14,6 +14,6 @@ import lombok.ToString;
 @NoArgsConstructor
 @Builder
 public class Geo {
-    public String lat;
-    public String lng;
+    private String lat;
+    private String lng;
 }

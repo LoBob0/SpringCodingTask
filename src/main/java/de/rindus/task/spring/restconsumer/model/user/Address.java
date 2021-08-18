@@ -14,9 +14,9 @@ import lombok.ToString;
 @NoArgsConstructor
 @Builder
 public class Address {
-    public String street;
-    public String suite;
-    public String city;
-    public String zipcode;
-    public Geo geo;
+    private String street;
+    private String suite;
+    private String city;
+    private String zipcode;
+    private Geo geo;
 }

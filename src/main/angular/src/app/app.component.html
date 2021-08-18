@@ -1,0 +1,18 @@
+<mat-sidenav-container>
+  <mat-sidenav  #sidenav role="navigation">
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <div>
+        <a>
+          Rindus Coding Task
+        </a>
+      </div>
+    </mat-toolbar>
+    <main>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<button  mat-button (click)="download()">Download</button>
+
+<mat-slide-toggle (click)="changeType()">{{type}}</mat-slide-toggle>

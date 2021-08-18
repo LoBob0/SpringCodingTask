@@ -1,4 +1,4 @@
-package de.rindus.task.spring.restconsumer;
+package de.rindus.task.spring.restconsumer.utils;
 
 import de.rindus.task.spring.restconsumer.model.post.Post;
 import de.rindus.task.spring.restconsumer.model.post.dto.PostDto;

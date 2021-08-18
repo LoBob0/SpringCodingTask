@@ -14,12 +14,12 @@ import lombok.ToString;
 @NoArgsConstructor
 @Builder
 public class User {
-    public Long id;
-    public String name;
-    public String username;
-    public String email;
-    public Address address;
-    public String phone;
-    public String website;
-    public Company company;
+    private Long id;
+    private String name;
+    private String username;
+    private String email;
+    private Address address;
+    private String phone;
+    private String website;
+    private Company company;
 }
